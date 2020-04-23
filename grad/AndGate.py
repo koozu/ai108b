@@ -16,6 +16,7 @@ o = [0, 0, 1]
 p = [1.0, 0.0, 1.0]
 p = gd.gradientDescendent(loss, p)
 dot = np.dot(i,p)
+
 ans = []
 for j in dot:
     ans.append(sig(j))
