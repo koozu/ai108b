@@ -9,7 +9,7 @@ def NP():
     return DET() + N2()
 
 def VP():
-    return V() + N1() + NP()
+    return V() + N1() + '的' + NP()
 
 def N0():
     return n.pop(r.choice(range(len(n))))
