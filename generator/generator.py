@@ -15,7 +15,7 @@ def N0():
     return n.pop(r.choice(range(len(n))))
 
 def N1():
-    return r.choice(n)
+    return r.choice(n) 
 
 def N2():
     return r.choice(['麥香奶茶', '珍珠奶茶', '可樂', '雪碧', 'RedBull'])
