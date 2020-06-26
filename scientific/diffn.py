@@ -1,6 +1,6 @@
 from math import *
 
-step = 0.05
+step = 0.05  # 如果步伐太小，反而會有錯誤
 def df(f, x, h=step):
     return (f(x+h)-f(x-h))/(2*h)
 

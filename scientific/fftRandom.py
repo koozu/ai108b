@@ -5,7 +5,7 @@ np.set_printoptions(precision=4, suppress=True)
 freq = random.randint(0,4)
 t = np.arange(0, 10, 0.1)
 ft = np.cos(freq*t*(2*np.pi))
-fi = np.fft.ifft(ft)
+fi = np.fft.fft(ft)  # 離散傅立葉轉換
 # print('ft=', ft)
 # print('fi=', fi)
 print('freq=', freq)
