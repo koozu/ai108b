@@ -89,6 +89,6 @@
         newpb=sumb/e的總數
         if newp==p: break
     ```
-
+## 
 ---
 - [上課網站](https://gitlab.com/ccckmit/ai2/-/tree/master/python/10-machineLearning)
